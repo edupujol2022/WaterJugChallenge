@@ -1,0 +1,12 @@
+"JUG1_SIZE" = "Tamaño J1";
+"JUG2_SIZE" = "Tamaño J2";
+"OBJECTIVE" = "Objetivo";
+"LETS_CALL_AI" = "Muestrame como se hace IA!";
+"JUG1_FILL_ACTION_INFO" = "Llenar Jug1";
+"JUG2_FILL_ACTION_INFO" = "Llenar Jug2";
+"JUG1_EMPTY_ACTION_INFO" = "Vaciar Jug1";
+"JUG2_EMPTY_ACTION_INFO" = "Vaciar Jug2";
+"JUG1_TO_JUG2_TRANSFER_ACTION_INFO" = "(Transferir Jug1 a Jug2) >>>>>> ";
+"JUG2_TO_JUG1_TRANSFER_ACTION_INFO" = "<<<<<< (Transferir Jug2 a Jug1)";
+"JUG1_OBJECTIVE_ACTION_INFO" = "Objetivo en Jug1!";
+"JUG2_OBJECTIVE_ACTION_INFO" = "Objetivo en Jug2!";

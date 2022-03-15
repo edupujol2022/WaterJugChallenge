@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7C328E27E0E82900FDFF2F /* WJCHomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7C329027E0E82900FDFF2F /* WJCHomeVC.storyboard */; };
+		CE7C329427E0EAB100FDFF2F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE7C329627E0EAB100FDFF2F /* Localizable.strings */; };
+		CEB2FD1227E126500049DEFE /* WaterJugChallengeTests_AI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB2FD1127E126500049DEFE /* WaterJugChallengeTests_AI.swift */; };
 		CEF725E827DFD4BB00D06237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF725E727DFD4BB00D06237 /* AppDelegate.swift */; };
-		CEF725EA27DFD4BB00D06237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF725E927DFD4BB00D06237 /* SceneDelegate.swift */; };
-		CEF725EC27DFD4BB00D06237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF725EB27DFD4BB00D06237 /* ViewController.swift */; };
-		CEF725EF27DFD4BB00D06237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF725ED27DFD4BB00D06237 /* Main.storyboard */; };
 		CEF725F127DFD4BD00D06237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF725F027DFD4BD00D06237 /* Assets.xcassets */; };
 		CEF725F427DFD4BD00D06237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF725F227DFD4BD00D06237 /* LaunchScreen.storyboard */; };
-		CEF725FF27DFD4BD00D06237 /* WaterJugChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF725FE27DFD4BD00D06237 /* WaterJugChallengeTests.swift */; };
-		CEF7260927DFD4BD00D06237 /* WaterJugChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7260827DFD4BD00D06237 /* WaterJugChallengeUITests.swift */; };
-		CEF7260B27DFD4BD00D06237 /* WaterJugChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7260A27DFD4BD00D06237 /* WaterJugChallengeUITestsLaunchTests.swift */; };
+		CEF725FF27DFD4BD00D06237 /* WaterJugChallengeTests_HomeUIFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF725FE27DFD4BD00D06237 /* WaterJugChallengeTests_HomeUIFunctionality.swift */; };
+		CEF7262127DFD89E00D06237 /* WJCHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7262027DFD89E00D06237 /* WJCHomeVC.swift */; };
+		CEF7262427DFDB3C00D06237 /* WJCAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7262327DFDB3C00D06237 /* WJCAI.swift */; };
+		CEF7262527DFDB3C00D06237 /* WJCAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7262327DFDB3C00D06237 /* WJCAI.swift */; };
+		CEF7262727DFDB4D00D06237 /* WJCHomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7262627DFDB4D00D06237 /* WJCHomeVM.swift */; };
+		CEF7262827DFDB4D00D06237 /* WJCHomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7262627DFDB4D00D06237 /* WJCHomeVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,29 +29,23 @@
 			remoteGlobalIDString = CEF725E327DFD4BB00D06237;
 			remoteInfo = WaterJugChallenge;
 		};
-		CEF7260527DFD4BD00D06237 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF725DC27DFD4BB00D06237 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEF725E327DFD4BB00D06237;
-			remoteInfo = WaterJugChallenge;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE7C329127E0E83300FDFF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WJCHomeVC.storyboard; sourceTree = "<group>"; };
+		CE7C329527E0EAB100FDFF2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE7C329727E0EAD100FDFF2F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEB2FD1127E126500049DEFE /* WaterJugChallengeTests_AI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterJugChallengeTests_AI.swift; sourceTree = "<group>"; };
 		CEF725E427DFD4BB00D06237 /* WaterJugChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterJugChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF725E727DFD4BB00D06237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEF725E927DFD4BB00D06237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEF725EB27DFD4BB00D06237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEF725EE27DFD4BB00D06237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEF725F027DFD4BD00D06237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF725F327DFD4BD00D06237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF725F527DFD4BD00D06237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF725FA27DFD4BD00D06237 /* WaterJugChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterJugChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF725FE27DFD4BD00D06237 /* WaterJugChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterJugChallengeTests.swift; sourceTree = "<group>"; };
-		CEF7260427DFD4BD00D06237 /* WaterJugChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterJugChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF7260827DFD4BD00D06237 /* WaterJugChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterJugChallengeUITests.swift; sourceTree = "<group>"; };
-		CEF7260A27DFD4BD00D06237 /* WaterJugChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterJugChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEF725FE27DFD4BD00D06237 /* WaterJugChallengeTests_HomeUIFunctionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterJugChallengeTests_HomeUIFunctionality.swift; sourceTree = "<group>"; };
+		CEF7262027DFD89E00D06237 /* WJCHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WJCHomeVC.swift; sourceTree = "<group>"; };
+		CEF7262327DFDB3C00D06237 /* WJCAI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJCAI.swift; sourceTree = "<group>"; };
+		CEF7262627DFDB4D00D06237 /* WJCHomeVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WJCHomeVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +63,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEF7260127DFD4BD00D06237 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE7C327B27E0E4FC00FDFF2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C329627E0EAB100FDFF2F /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		CEF725DB27DFD4BB00D06237 = {
 			isa = PBXGroup;
 			children = (
 				CEF725E627DFD4BB00D06237 /* WaterJugChallenge */,
 				CEF725FD27DFD4BD00D06237 /* WaterJugChallengeTests */,
-				CEF7260727DFD4BD00D06237 /* WaterJugChallengeUITests */,
 				CEF725E527DFD4BB00D06237 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +88,6 @@
 			children = (
 				CEF725E427DFD4BB00D06237 /* WaterJugChallenge.app */,
 				CEF725FA27DFD4BD00D06237 /* WaterJugChallengeTests.xctest */,
-				CEF7260427DFD4BD00D06237 /* WaterJugChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,12 +95,12 @@
 		CEF725E627DFD4BB00D06237 /* WaterJugChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				CE7C327B27E0E4FC00FDFF2F /* Resources */,
 				CEF725E727DFD4BB00D06237 /* AppDelegate.swift */,
-				CEF725E927DFD4BB00D06237 /* SceneDelegate.swift */,
-				CEF725EB27DFD4BB00D06237 /* ViewController.swift */,
-				CEF725ED27DFD4BB00D06237 /* Main.storyboard */,
-				CEF725F027DFD4BD00D06237 /* Assets.xcassets */,
 				CEF725F227DFD4BD00D06237 /* LaunchScreen.storyboard */,
+				CEF7261A27DFD74400D06237 /* Logic */,
+				CEF7261927DFD73A00D06237 /* Views */,
+				CEF725F027DFD4BD00D06237 /* Assets.xcassets */,
 				CEF725F527DFD4BD00D06237 /* Info.plist */,
 			);
 			path = WaterJugChallenge;
@@ -113,18 +109,28 @@
 		CEF725FD27DFD4BD00D06237 /* WaterJugChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEF725FE27DFD4BD00D06237 /* WaterJugChallengeTests.swift */,
+				CEB2FD1127E126500049DEFE /* WaterJugChallengeTests_AI.swift */,
+				CEF725FE27DFD4BD00D06237 /* WaterJugChallengeTests_HomeUIFunctionality.swift */,
 			);
 			path = WaterJugChallengeTests;
 			sourceTree = "<group>";
 		};
-		CEF7260727DFD4BD00D06237 /* WaterJugChallengeUITests */ = {
+		CEF7261927DFD73A00D06237 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CEF7260827DFD4BD00D06237 /* WaterJugChallengeUITests.swift */,
-				CEF7260A27DFD4BD00D06237 /* WaterJugChallengeUITestsLaunchTests.swift */,
+				CEF7262627DFDB4D00D06237 /* WJCHomeVM.swift */,
+				CEF7262027DFD89E00D06237 /* WJCHomeVC.swift */,
+				CE7C329027E0E82900FDFF2F /* WJCHomeVC.storyboard */,
 			);
-			path = WaterJugChallengeUITests;
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CEF7261A27DFD74400D06237 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7262327DFDB3C00D06237 /* WJCAI.swift */,
+			);
+			path = Logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +171,6 @@
 			productReference = CEF725FA27DFD4BD00D06237 /* WaterJugChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEF7260327DFD4BD00D06237 /* WaterJugChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEF7261427DFD4BD00D06237 /* Build configuration list for PBXNativeTarget "WaterJugChallengeUITests" */;
-			buildPhases = (
-				CEF7260027DFD4BD00D06237 /* Sources */,
-				CEF7260127DFD4BD00D06237 /* Frameworks */,
-				CEF7260227DFD4BD00D06237 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEF7260627DFD4BD00D06237 /* PBXTargetDependency */,
-			);
-			name = WaterJugChallengeUITests;
-			productName = WaterJugChallengeUITests;
-			productReference = CEF7260427DFD4BD00D06237 /* WaterJugChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +188,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = CEF725E327DFD4BB00D06237;
 					};
-					CEF7260327DFD4BD00D06237 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = CEF725E327DFD4BB00D06237;
-					};
 				};
 			};
 			buildConfigurationList = CEF725DF27DFD4BB00D06237 /* Build configuration list for PBXProject "WaterJugChallenge" */;
@@ -213,6 +197,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = CEF725DB27DFD4BB00D06237;
 			productRefGroup = CEF725E527DFD4BB00D06237 /* Products */;
@@ -221,7 +206,6 @@
 			targets = (
 				CEF725E327DFD4BB00D06237 /* WaterJugChallenge */,
 				CEF725F927DFD4BD00D06237 /* WaterJugChallengeTests */,
-				CEF7260327DFD4BD00D06237 /* WaterJugChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,20 +215,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7C328E27E0E82900FDFF2F /* WJCHomeVC.storyboard in Resources */,
+				CE7C329427E0EAB100FDFF2F /* Localizable.strings in Resources */,
 				CEF725F427DFD4BD00D06237 /* LaunchScreen.storyboard in Resources */,
 				CEF725F127DFD4BD00D06237 /* Assets.xcassets in Resources */,
-				CEF725EF27DFD4BB00D06237 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CEF725F827DFD4BD00D06237 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEF7260227DFD4BD00D06237 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,9 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF725EC27DFD4BB00D06237 /* ViewController.swift in Sources */,
+				CEF7262127DFD89E00D06237 /* WJCHomeVC.swift in Sources */,
 				CEF725E827DFD4BB00D06237 /* AppDelegate.swift in Sources */,
-				CEF725EA27DFD4BB00D06237 /* SceneDelegate.swift in Sources */,
+				CEF7262727DFDB4D00D06237 /* WJCHomeVM.swift in Sources */,
+				CEF7262427DFDB3C00D06237 /* WJCAI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF725FF27DFD4BD00D06237 /* WaterJugChallengeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEF7260027DFD4BD00D06237 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEF7260927DFD4BD00D06237 /* WaterJugChallengeUITests.swift in Sources */,
-				CEF7260B27DFD4BD00D06237 /* WaterJugChallengeUITestsLaunchTests.swift in Sources */,
+				CEF725FF27DFD4BD00D06237 /* WaterJugChallengeTests_HomeUIFunctionality.swift in Sources */,
+				CEF7262827DFDB4D00D06237 /* WJCHomeVM.swift in Sources */,
+				CEB2FD1227E126500049DEFE /* WaterJugChallengeTests_AI.swift in Sources */,
+				CEF7262527DFDB3C00D06237 /* WJCAI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,20 +262,24 @@
 			target = CEF725E327DFD4BB00D06237 /* WaterJugChallenge */;
 			targetProxy = CEF725FB27DFD4BD00D06237 /* PBXContainerItemProxy */;
 		};
-		CEF7260627DFD4BD00D06237 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEF725E327DFD4BB00D06237 /* WaterJugChallenge */;
-			targetProxy = CEF7260527DFD4BD00D06237 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEF725ED27DFD4BB00D06237 /* Main.storyboard */ = {
+		CE7C329027E0E82900FDFF2F /* WJCHomeVC.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEF725EE27DFD4BB00D06237 /* Base */,
+				CE7C329127E0E83300FDFF2F /* Base */,
 			);
-			name = Main.storyboard;
+			name = WJCHomeVC.storyboard;
+			sourceTree = "<group>";
+		};
+		CE7C329627E0EAB100FDFF2F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7C329527E0EAB100FDFF2F /* en */,
+				CE7C329727E0EAD100FDFF2F /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		CEF725F227DFD4BD00D06237 /* LaunchScreen.storyboard */ = {
@@ -320,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -367,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -381,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -422,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,15 +415,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9NV4X42BXD;
+				DEVELOPMENT_TEAM = 4JV77VTV84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WaterJugChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WJC;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = WJCHomeVC;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,11 +432,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = water.jug.challenge.WaterJugChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = carlos.peralta.2022.WJC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,15 +444,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9NV4X42BXD;
+				DEVELOPMENT_TEAM = 4JV77VTV84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WaterJugChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WJC;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = WJCHomeVC;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,11 +461,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = water.jug.challenge.WaterJugChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = carlos.peralta.2022.WJC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -493,14 +474,19 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9NV4X42BXD;
+				DEVELOPMENT_TEAM = 4JV77VTV84;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = water.jug.challenge.WaterJugChallengeTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -513,54 +499,23 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9NV4X42BXD;
+				DEVELOPMENT_TEAM = 4JV77VTV84;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = water.jug.challenge.WaterJugChallengeTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterJugChallenge.app/WaterJugChallenge";
-			};
-			name = Release;
-		};
-		CEF7261527DFD4BD00D06237 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9NV4X42BXD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = water.jug.challenge.WaterJugChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WaterJugChallenge;
-			};
-			name = Debug;
-		};
-		CEF7261627DFD4BD00D06237 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9NV4X42BXD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = water.jug.challenge.WaterJugChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WaterJugChallenge;
 			};
 			name = Release;
 		};
@@ -590,15 +545,6 @@
 			buildConfigurations = (
 				CEF7261227DFD4BD00D06237 /* Debug */,
 				CEF7261327DFD4BD00D06237 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEF7261427DFD4BD00D06237 /* Build configuration list for PBXNativeTarget "WaterJugChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEF7261527DFD4BD00D06237 /* Debug */,
-				CEF7261627DFD4BD00D06237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

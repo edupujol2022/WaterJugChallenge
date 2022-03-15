@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="WJCHomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="WJCHomeVC" customModule="WaterJugChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Water Jug Challenge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNV-xc-uq0">
+                                <rect key="frame" x="72" y="111" width="270" height="33.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="29"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="LoV-zO-cii">
+                                <rect key="frame" x="0.0" y="213" width="414" height="216"/>
+                            </pickerView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="1zM-qq-Bk6">
+                                <rect key="frame" x="0.0" y="184.5" width="414" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jug1 Size" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rdc-WL-klt">
+                                        <rect key="frame" x="0.0" y="0.0" width="139.5" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jug2 Size" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXm-om-Sjb" userLabel="Jug2 Size">
+                                        <rect key="frame" x="139.5" y="0.0" width="139.5" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Objective" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjz-c4-N3g" userLabel="Objective">
+                                        <rect key="frame" x="279" y="0.0" width="135" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <color key="textColor" name="AccentColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLp-Nf-shx">
+                                <rect key="frame" x="108.5" y="433" width="197" height="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Let me see how you do it AI !"/>
+                                <connections>
+                                    <action selector="callAI:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fzv-qn-az0"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c6e-dg-uZc" userLabel="waterJug1">
+                                <rect key="frame" x="51" y="564" width="82" height="310"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="310" id="5nV-Xb-JVj"/>
+                                    <constraint firstAttribute="width" constant="82" id="XwG-PL-qEe"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jug" translatesAutoresizingMaskIntoConstraints="NO" id="VAb-QR-8Lj" userLabel="jug1">
+                                <rect key="frame" x="33" y="567" width="150" height="310"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="avM-1w-k8R"/>
+                                    <constraint firstAttribute="height" constant="310" id="pml-5h-V2W"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUM-XD-TLy" userLabel="waterJug2">
+                                <rect key="frame" x="262" y="564" width="80" height="310"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="310" id="OAo-Bh-O2h"/>
+                                    <constraint firstAttribute="width" constant="80" id="QVT-FA-fX4"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jug" translatesAutoresizingMaskIntoConstraints="NO" id="BaW-EL-SSp" userLabel="jug2">
+                                <rect key="frame" x="244" y="567" width="150" height="310"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="310" id="Tpv-PW-5HU"/>
+                                    <constraint firstAttribute="width" constant="150" id="ec6-ZG-Agm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PZ-60-1vH">
+                                <rect key="frame" x="0.0" y="425" width="414" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="c6e-dg-uZc" secondAttribute="bottom" constant="-12" id="2aR-uU-eZc"/>
+                            <constraint firstItem="1zM-qq-Bk6" firstAttribute="leading" secondItem="LoV-zO-cii" secondAttribute="leading" id="4QF-9N-4um"/>
+                            <constraint firstItem="VAb-QR-8Lj" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" constant="15" id="6Re-lf-X14"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="sUM-XD-TLy" secondAttribute="trailing" constant="72" id="BUn-59-Kze"/>
+                            <constraint firstItem="LoV-zO-cii" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="E1N-mc-zpT"/>
+                            <constraint firstItem="4PZ-60-1vH" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="PYx-GD-YdU"/>
+                            <constraint firstItem="mLp-Nf-shx" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Qzx-UX-Aby"/>
+                            <constraint firstItem="c6e-dg-uZc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="51" id="TBH-dZ-Dgc"/>
+                            <constraint firstItem="4PZ-60-1vH" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="425" id="Tkm-gy-jba"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="sUM-XD-TLy" secondAttribute="bottom" constant="-12" id="VYB-eD-62G"/>
+                            <constraint firstItem="1zM-qq-Bk6" firstAttribute="top" secondItem="pNV-xc-uq0" secondAttribute="bottom" constant="40" id="ZbF-Ow-GbT"/>
+                            <constraint firstItem="4PZ-60-1vH" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="cZF-wK-f7Z"/>
+                            <constraint firstItem="VAb-QR-8Lj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="33" id="cne-y9-5ej"/>
+                            <constraint firstItem="LoV-zO-cii" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="cxn-2A-MV5"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="BaW-EL-SSp" secondAttribute="trailing" constant="20" id="dLk-bB-pT5"/>
+                            <constraint firstItem="pNV-xc-uq0" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="ijI-EO-Iwb"/>
+                            <constraint firstItem="BaW-EL-SSp" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" constant="15" id="pbH-rd-ODq"/>
+                            <constraint firstItem="mLp-Nf-shx" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="389" id="pwC-DT-rG1"/>
+                            <constraint firstItem="1zM-qq-Bk6" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="ql0-TY-0Ih"/>
+                            <constraint firstItem="pNV-xc-uq0" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="67" id="wnj-3Q-Ysh"/>
+                            <constraint firstItem="LoV-zO-cii" firstAttribute="top" secondItem="1zM-qq-Bk6" secondAttribute="bottom" constant="7.5" id="xdc-ma-XDr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="callAIButton" destination="mLp-Nf-shx" id="Snh-Xe-hja"/>
+                        <outlet property="jug1Height" destination="pml-5h-V2W" id="8St-rC-5Pr"/>
+                        <outlet property="jug1SizeLabel" destination="Rdc-WL-klt" id="8gX-np-sk4"/>
+                        <outlet property="jug1View" destination="c6e-dg-uZc" id="aKk-U4-unt"/>
+                        <outlet property="jug2Height" destination="Tpv-PW-5HU" id="sWG-Tv-Aru"/>
+                        <outlet property="jug2SizeLabel" destination="IXm-om-Sjb" id="7of-mQ-WXh"/>
+                        <outlet property="objectiveLabel" destination="zjz-c4-N3g" id="eii-pI-ufP"/>
+                        <outlet property="picker" destination="LoV-zO-cii" id="pY0-xb-gsL"/>
+                        <outlet property="stepInfoLabel" destination="4PZ-60-1vH" id="RUa-v1-roE"/>
+                        <outlet property="waterJug1Height" destination="5nV-Xb-JVj" id="LiO-Wh-2qr"/>
+                        <outlet property="waterJug2Height" destination="OAo-Bh-O2h" id="CKW-IP-7VD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="58.928571428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jug" width="137" height="220"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
